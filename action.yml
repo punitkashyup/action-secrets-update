@@ -1,6 +1,6 @@
 name: 'Update Secret Action'
 description: 'A GitHub Action to update a secret in a repository'
-author: 'Your Name'
+author: 'Punit K'
 branding:
   icon: 'shield'
   color: 'blue'
