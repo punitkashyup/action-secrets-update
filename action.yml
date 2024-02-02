@@ -1,0 +1,35 @@
+name: 'Update Secret Action'
+description: 'A GitHub Action to update a secret in a repository'
+author: 'Your Name'
+branding:
+  icon: 'shield'
+  color: 'blue'
+
+inputs:
+  repository_owner:
+    description: 'The owner of the repository'
+    required: true
+  repository_name:
+    description: 'The name of the repository'
+    required: true
+  secret_name:
+    description: 'The name of the secret to update'
+    required: true
+  new_secret_value:
+    description: 'The new value for the secret'
+    required: true
+  github_token:
+    description: 'GitHub token with repo access'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'shield'
+  color: 'blue'
+
+permissions:
+  contents: write
+  actions: read

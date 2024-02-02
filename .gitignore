@@ -1,0 +1,28 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# IDE files
+.idea/
+.vscode/
+
+# Compiled C extensions
+*.so
+
+# Dependency directories
+pip-wheel-metadata/
