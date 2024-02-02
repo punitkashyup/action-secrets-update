@@ -43,4 +43,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ github.repository }}/update-secret-action:$RELEASE_VERSION
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}:${{ steps.vars.outputs.tag }}
