@@ -43,4 +43,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: punitkashyup/${{ github.repository }}:${{ steps.vars.outputs.tag }}
+          tags: punitkashyup/update-secret-action:${{ steps.vars.outputs.tag }}
