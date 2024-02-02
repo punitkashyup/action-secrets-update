@@ -54,11 +54,11 @@ def update_github_secret(repository_owner, repository_name, secret_name, new_sec
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
-    repository_owner = os.environ.get("REPOSITORY_OWNER")
-    repository_name = os.environ.get("REPOSITORY_NAME")
-    secret_name = os.environ.get("SECRET_NAME")
-    new_secret_value = os.environ.get("NEW_SECRET_VALUE")
-    github_token = os.environ.get("GITHUB_TOKEN")
+    repository_owner = os.getenv("REPOSITORY_OWNER")
+    repository_name = os.getenv("REPOSITORY_NAME")
+    secret_name = os.getenv("SECRET_NAME")
+    new_secret_value = os.getenv("NEW_SECRET_VALUE")
+    github_token = os.getenv("GITHUB_TOKEN")
 
     if not all([repository_owner, repository_name, secret_name, new_secret_value, github_token]):
         logging.error("Missing required environment variables.")
