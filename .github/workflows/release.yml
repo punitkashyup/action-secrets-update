@@ -43,4 +43,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}:${{ steps.vars.outputs.tag }}
+          tags: punitkashyup/${{ github.repository }}:${{ steps.vars.outputs.tag }}
