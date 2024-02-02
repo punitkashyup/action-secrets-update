@@ -26,10 +26,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
 
-branding:
-  icon: 'shield'
-  color: 'blue'
-
 permissions:
   contents: write
   actions: read
