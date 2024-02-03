@@ -1,6 +1,6 @@
 # Update Secret Action
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/punitkashyup/update-secret-action/Release?label=Release&logo=github)
+![GitHub Workflow Status](https://github.com/marketplace/actions/update-secret-action)
 
 A GitHub Action to easily update a secret in your repository using strong encryption.
 
