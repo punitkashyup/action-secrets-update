@@ -1,8 +1,8 @@
 # Update Secret Action
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/<your-username>/update-secret-action/Release?label=Release&logo=github)
-![GitHub](https://img.shields.io/github/license/<your-username>/update-secret-action)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/<your-username>/update-secret-action?logo=github)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/punitkashyup/update-secret-action/Release?label=Release&logo=github)
+![GitHub](https://img.shields.io/github/license/punitkashyup/update-secret-action)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/punitkashyup/update-secret-action?logo=github)
 
 A GitHub Action to easily update a secret in your repository using strong encryption.
 
