@@ -1,7 +1,5 @@
 # Update Secret Action
 
-![GitHub Workflow Status](https://github.com/marketplace/actions/update-secret-action)
-
 A GitHub Action to easily update a secret in your repository using strong encryption.
 
 ## Features
